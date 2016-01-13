@@ -10,6 +10,26 @@
     android:backgroundTint="#800077FF"
     android:backgroundTintMode="src_over">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/editText">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/icon_line"
+            android:layout_above="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="43dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
