@@ -40,7 +40,7 @@
         android:layout_centerHorizontal="true"
         android:foreground="#32ffffff"
         android:background="#BfFFFFFF"
-        android:text="Enter a stop number"
+        android:text="@string/stop_input"
         android:paddingLeft="10dp" />
 
     <LinearLayout
@@ -70,7 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Favourites"
+                android:text="@string/favorites"
                 android:id="@+id/textView"
                 android:layout_gravity="center_horizontal"
                 style="@style/body_font"
@@ -99,7 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Map"
+                android:text="@string/map"
                 android:id="@+id/map_lbl"
                 android:gravity="center|center_horizontal"
                 style="@style/body_font"
@@ -125,7 +125,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Settings"
+                android:text="@string/settings"
                 android:id="@+id/settings_lbl"
                 style="@style/body_font"
                 android:gravity="center_horizontal"

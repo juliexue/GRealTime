@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GRealTime</string>
+    <string name="favorites">Favourites</string>
+    <string name="map">Map</string>
+    <string name="settings">Settings</string>
+    <string name="stop_input">Enter a stop number</string>
 </resources>
