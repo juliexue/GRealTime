@@ -10,25 +10,16 @@
     android:backgroundTint="#800077FF"
     android:backgroundTintMode="src_over">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
+
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView"
-        android:gravity="center_horizontal"
-        android:layout_above="@+id/editText">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView"
-            android:src="@drawable/icon_line"
-            android:layout_above="@+id/logo"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="43dp"
-            android:layout_gravity="center_horizontal" />
-
-    </LinearLayout>
+        android:id="@+id/imageView"
+        android:src="@drawable/icon_line"
+        android:layout_marginBottom="69dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/editText"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -40,7 +31,7 @@
         android:layout_centerHorizontal="true"
         android:foreground="#32ffffff"
         android:background="#BfFFFFFF"
-        android:text="@string/stop_input"
+        android:hint="@string/stop_input"
         android:paddingLeft="10dp" />
 
     <LinearLayout
@@ -64,7 +55,8 @@
                 android:layout_height="60dp"
                 android:id="@+id/fav"
                 android:layout_gravity="center_horizontal"
-                android:background="@drawable/button_background" />
+                android:background="@drawable/button_background"
+                android:onClick="openMyStop"/>
 
             <TextView
                 android:layout_width="wrap_content"
